@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>que05</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            border: 1px solid black;
+            justify-items: center;
+        }
+        .container > div{
+            padding: 5px;
+            background-color: cyan;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h3>Justify-items and Justify-self </h3> 
+    <p>There are differences in between those tags but the main diffrence is that the Justify-items is used by the parent div or parent tag as it is used at a upper level to move more than one box or container while the Justify-self is used by the child tag or child div to only move itself or an individual one. Below is the example </p>
+    <div class="container">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+        <div class="box4">box4</div>
+        <div class="box5">box5</div>
+        <div class="box6">box6</div>
+    </div>
+</body>
+</html>
